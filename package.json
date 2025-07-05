@@ -7,6 +7,8 @@
     "compile": "hardhat compile",
     "test": "hardhat test",
     "deploy:testnet": "hardhat run scripts/deploy.js --network mantleTestnet",
+    "demo:oracle": "hardhat run scripts/demo-oracle.js",
+    "demo:chainlink": "hardhat run scripts/demo-real-chainlink.js",
     "node": "hardhat node"
   },
   "dependencies": {
